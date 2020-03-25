@@ -1,22 +1,19 @@
-import KEYBOARD
+import keyboard
 #import win32com.client as comclt
 import pyautogui
 import ctypes
 
 file = open("keypressed.txt", "r")
 
-loopActive = true
+def callKey(value()):
+    value
 
-while loopActive:
-    if keyboard.is_pressed("{F24}"):
+
+def space():
+    print space
+
+while 1:
+    f24 = keyboard.is_pressed('F24')
+    if f24:
         key = file.read()
         callKey(key)
-    continue
-    printf("looping")
-    
-
-def callKey(value):
-    value()
-
-def enter():
-    printf(enter)
